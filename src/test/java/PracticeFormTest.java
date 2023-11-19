@@ -23,6 +23,7 @@ public class PracticeFormTest {
     static void beforeAll() {
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.browser = System.getProperty("browser", "Chrome");
+        Configuration.browserVersion = System.getProperty("version","100");
         Configuration.browserSize = System.getProperty("windowSize", "1920x1080");
         Configuration.remote = System.getProperty("host", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
         Configuration.pageLoadStrategy = "eager";
