@@ -38,6 +38,7 @@ dependencies {
 
 tasks.withType(Test) {
     useJUnitPlatform()
+    systemProperties(System.getProperties())
 
     testLogging {
         lifecycle {
@@ -52,3 +53,4 @@ task add_user_test(type: Test) {
         includeTags("add_user")
     }
 }
+
