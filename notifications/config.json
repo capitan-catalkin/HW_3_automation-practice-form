@@ -5,8 +5,8 @@
     "environment": "PROD",
     "comment": "",
     "reportLink": "",
-    "language": "ru",
-    "allureFolder": "alure-report",
+    "language": "en",
+    "allureFolder": "allure-report",
     "enableChart": true
   },
   "telegram": {
